@@ -1,0 +1,50 @@
+# LEEME - Archivos necesarios para el sitio
+# Historia de la Arquitectura I - Tres revistas digitales 2026
+
+## IMÁGENES (formato PNG)
+
+### Imágenes principales del sitio
+- hero.png (Open Graph) - 1200x630px o similar, paisaje
+- intro.png - Arquitectura medieval con arcos y columnas, 3:4 vertical
+- bizantino.png - Interior de Santa Sofía con mosaicos dorados, 4:5 vertical
+- romanico.png - Iglesia románica con arcos de medio punto, 4:5 vertical
+- gotico.png - Catedral gótica con arbotantes, 4:5 vertical
+- mosaico.png - Mosaicos bizantinos, 4:5 vertical
+- catedral.png - Catedral medieval, 4:5 vertical
+- arco.png - Arcos góticos, 4:5 vertical
+
+### Portadas de las revistas
+- portada-bizantino.png - Portada revista Arte Bizantino, 3:4 vertical
+- portada-romanico.png - Portada revista Arte Románico, 3:4 vertical
+- portada-gotico.png - Portada revista Arte Gótico, 3:4 vertical
+
+### Elementos arquitectónicos
+- arco-medio-punto.png - Arco de medio punto románico, 2:3 vertical
+- boveda-cruceria.png - Bóveda de crucería gótica, 2:3 vertical
+- cupula-pechinas.png - Cúpula sobre pechinas bizantina, 2:3 vertical
+
+### Logos de la universidad
+- Logo.png - Logo Universidad de La Guajira (modo claro)
+- Logo_B.png - Logo Universidad de La Guajira (modo oscuro, fondo oscuro)
+
+### Favicon (opcional, si existen)
+- favicon.ico - 32x32px
+- favicon.svg - SVG vectorial
+- apple-touch-icon.png - 180x180px
+- icon-192.png - 192x192px
+- icon-512.png - 512x512px
+- site.webmanifest - Manifest de PWA
+
+## PDFs DE LAS REVISTAS
+
+### Estructura de carpetas
+/assets/revistas/ARTE BIZANTINO.pdf
+/assets/revistas/FINAL REVISTA.pdf
+/assets/revistas/ARTE GOTICO.pdf
+
+## NOTAS
+- Todas las imágenes deben estar en formato PNG
+- hero.png se usa para Open Graph en redes sociales
+- Los logos deben tener el mismo diseño, solo variar el fondo (claro/oscuro)
+- Si Logo_B.png no existe, el sitio usará Logo.png con fondo claro en modo oscuro
+

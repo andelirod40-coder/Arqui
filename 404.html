@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Página no encontrada — Historia de la Arquitectura I</title>
+<meta name="description" content="La página que buscas no existe. Vuelve al inicio de la revista digital.">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<meta name="color-scheme" content="light dark">
+<style>
+  .error-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--pad);
+    text-align: center;
+  }
+  .error-code {
+    font: 400 clamp(6rem, 15vw, 12rem) var(--d);
+    color: var(--rojo);
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  .error-title {
+    font: 400 clamp(2rem, 5vw, 4rem) var(--d);
+    margin-bottom: 1.5rem;
+  }
+  .error-desc {
+    font-size: 1.1rem;
+    max-width: 40ch;
+    opacity: 0.85;
+    margin-bottom: 2rem;
+  }
+  .error-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+</style>
+</head>
+<body>
+<div class="error-page">
+  <div class="error-code">404</div>
+  <h1 class="error-title">Página no encontrada</h1>
+  <p class="error-desc">La página que buscas no existe o ha sido movida. Explora la revista digital de Historia de la Arquitectura I.</p>
+  <div class="error-actions">
+    <a class="btn red" href="index.html">Volver al inicio <span>→</span></a>
+    <a class="btn" href="index.html#revista">Ver revista <span>→</span></a>
+  </div>
+</div>
+</body>
+</html>

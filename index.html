@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Historia de la Arquitectura I — Cuatro revistas digitales 2026</title>
+<meta name="author" content="Andrés Elias Rodríguez Botero">
+<meta name="description" content="Cuatro revistas digitales universitarias sobre arte bizantino, románico y gótico: estilos, técnicas, formas y periodos del arte medieval.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Historia de la Arquitectura I — Cuatro revistas digitales 2026">
+<meta property="og:description" content="Cuatro revistas digitales sobre arte bizantino, románico y gótico. Un recorrido por el arte medieval.">
+
+<!-- NOTA: Se mantiene hero.png para Open Graph ya que WhatsApp y redes sociales no siempre soportan el formato AVIF. Se debe incluir ese archivo hero.png aparte en assets/images/ -->
+<meta property="og:image" content="assets/images/hero.png">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#B51F3B" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0c0b" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<meta name="color-scheme" content="light dark">
+<script>document.documentElement.classList.add('js');(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(!t)t=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t})()</script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<!-- Filtro SVG sutil para efecto de tinta impresa -->
+<svg class="sprite" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden;">
+  <defs>
+    <filter id="ink-print" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.4" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </defs>
+</svg>
+
+<!-- Header / Navegación principal -->
+<header class="top">
+  <a class="brand" href="#inicio" aria-label="Historia de la Arquitectura I, inicio"><b>HISTORIA</b><b>ARQUITECTURA I</b></a>
+  <button class="theme" aria-pressed="false" aria-label="Cambiar a modo oscuro"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor"/></svg></button>
+  <button class="burger" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú"><i></i><i></i></button>
+  <nav id="nav" aria-label="Principal">
+    <a href="#inicio">Inicio</a><a href="#revistas">Revistas</a><a href="#estilos">Estilos</a><a href="#tiempo">Línea del tiempo</a><a href="#edicion">Créditos</a>
+    <a class="btn sm" href="#revistas">Ver revistas <span>↓</span></a>
+  </nav>
+</header>
+
+<main id="contenido">
+
+<!-- Sección Hero -->
+<section class="hero" id="inicio">
+  <aside class="ticket rv" aria-label="Cuatro revistas">
+    <div class="t-badge">COLECCIÓN 2026</div>
+    <p class="micro">Tres revistas</p>
+    <p class="t-name">Arte<br>Medieval</p>
+    <div class="t-cutout"></div>
+    <a class="t-go" href="#revistas">Leer ahora <span>→</span></a>
+  </aside>
+
+  <div class="hero-header-wrap">
+    <div class="news-masthead" aria-label="Cabecera editorial">
+      <span class="m-line"></span>
+      <p class="micro m-text">REVISTA DIGITAL · VOL. 1 · N.º 1 · EDICIÓN 2026</p>
+      <span class="m-line"></span>
+    </div>
+    <h1><span>Historia</span><span class="de">de la</span><span>Arquitectura</span></h1>
+    <div class="hero-sub">
+      <span>Cuatro revistas sobre el arte medieval</span>
+    </div>
+  </div>
+
+  <p class="micro hero-meta">Colección digital<br>Historia de la Arquitectura I<br>Edición 2026</p>
+  <figure class="hero-photo" data-ph="Colocar assets/images/hero.png (Coliseo, Partenón…)">
+    <img src="assets/images/hero.png" alt="Ruinas de arquitectura romana al atardecer" fetchpriority="high">
+  </figure>
+</section>
+
+<!-- Sección Introducción -->
+<section class="intro" aria-labelledby="t-intro">
+  <div class="intro-text">
+    <p class="num">01 / 03</p>
+    <h2 id="t-intro" class="rv">Una mirada<br>a la historia</h2>
+    <p class="rv">Este sitio reúne cuatro revistas digitales sobre los grandes estilos del arte medieval: bizantino, románico y gótico. Cada una explora cómo la arquitectura y el arte se transformaron a través de los siglos, desde las basílicas de Constantinopla hasta las catedrales de Europa.</p>
+    <p class="rv">Las revistas combinan rigor histórico con diseño editorial, pensadas para leerse en pantalla y para guardarse como referencia.</p>
+  </div>
+  <figure class="intro-photo rv" data-ph="Colocar assets/images/BIZANTINO.png">
+    <img src="assets/images/BIZANTINO.png" alt="Detalle de arquitectura medieval con arcos y columnas" loading="lazy">
+  </figure>
+</section>
+
+<!-- Sección Revistas (cuatro revistas) -->
+<section class="mag" id="revistas" aria-labelledby="t-mag">
+  <div class="mag-header rv">
+    <p class="micro">Colección digital · 2026</p>
+    <h2 id="t-mag">Tres revistas<br>del arte medieval</h2>
+  </div>
+  <div class="revistas-grid" id="revistas-container">
+    <!-- Las revistas se generan dinámicamente desde JS -->
+    <noscript>
+      <a class="revista-item" href="#bizantino" id="bizantino">
+        <figure data-ph="Colocar assets/images/PORTADA_BIZANTINA.png">
+          <img src="assets/images/PORTADA_BIZANTINA.png" alt="Portada de la revista Arte Bizantino" loading="lazy">
+        </figure>
+        <div class="revista-info">
+          <p class="micro">01 · siglos IV–XV</p>
+          <h3>Arte Bizantino</h3>
+          <p>Basílicas, mosaicos y la cúpula sobre pechinas. El arte de Constantinopla y su influencia en el Mediterráneo oriental.</p>
+          <div class="actions">
+            <button class="btn red" data-pdf="assets/revistas/ARTE BIZANTINO.pdf" data-title="Arte Bizantino">Leer revista <span>→</span></button>
+            <a class="btn" href="assets/revistas/ARTE BIZANTINO.pdf" download="ARTE BIZANTINO.pdf">Descargar PDF <span>↓</span></a>
+          </div>
+        </div>
+      </a>
+      <a class="revista-item" href="#romanico" id="romanico">
+        <figure data-ph="Colocar assets/images/PORTADA_ROMANICA.png">
+          <img src="assets/images/PORTADA_ROMANICA.png" alt="Portada de la revista Arte Románico" loading="lazy">
+        </figure>
+        <div class="revista-info">
+          <p class="micro">02 · siglos XI–XII</p>
+          <h3>Arte Románico</h3>
+          <p>Muros gruesos, arcos de medio punto y bóvedas de cañón. La arquitectura de las peregrinaciones y los monasterios.</p>
+          <div class="actions">
+            <button class="btn red" data-pdf="assets/revistas/ARTE ROMANICO.pdf" data-title="Arte Románico">Leer revista <span>→</span></button>
+            <a class="btn" href="assets/revistas/ARTE ROMANICO.pdf" download="ARTE ROMANICO.pdf">Descargar PDF <span>↓</span></a>
+          </div>
+        </div>
+      </a>
+      <a class="revista-item" href="#gotico" id="gotico">
+        <figure data-ph="Colocar assets/images/PORTADA_GOTICA.png">
+          <img src="assets/images/PORTADA_GOTICA.png" alt="Portada de la revista Arte Gótico" loading="lazy">
+        </figure>
+        <div class="revista-info">
+          <p class="micro">03 · siglos XII–XV</p>
+          <h3>Arte Gótico</h3>
+          <p>Bóvedas de crucería, arbotantes y vidrieras. La búsqueda de la luz vertical y la altura en las catedrales europeas.</p>
+          <div class="actions">
+            <button class="btn red" data-pdf="assets/revistas/ARTE GOTICO.pdf" data-title="Arte Gótico">Leer revista <span>→</span></button>
+            <a class="btn" href="assets/revistas/ARTE GOTICO.pdf" download="ARTE GOTICO.pdf">Descargar PDF <span>↓</span></a>
+          </div>
+        </div>
+      </a>
+    </noscript>
+  </div>
+</section>
+
+<!-- Sección Contenidos / Índice -->
+<section class="idx" id="estilos" aria-labelledby="t-idx">
+  <h2 id="t-idx">Estilos</h2>
+  <div class="idx-wrap">
+    <ol id="idx-list">
+      <!-- Se genera dinámicamente desde JS -->
+      <noscript>
+        <li><a href="#bizantino" data-img="bizantino"><span class="n">01</span><span class="h"> Bizantino</span><span class="d">Basílicas, mosaicos y cúpula sobre pechinas.</span><span class="a">→</span></a></li>
+        <li><a href="#romanico" data-img="romanico"><span class="n">02</span><span class="h">Románico</span><span class="d">Arcos de medio punto y bóvedas de cañón.</span><span class="a">→</span></a></li>
+        <li><a href="#gotico" data-img="gotico"><span class="n">03</span><span class="h">Gótico</span><span class="d">Bóvedas de crucería y arbotantes.</span><span class="a">→</span></a></li>
+      </noscript>
+    </ol>
+    <figure class="peek" aria-hidden="true" data-ph="Vista previa"><img src="assets/images/BIZANTINO.png" alt=""></figure>
+  </div>
+</section>
+
+<!-- Sección Línea del tiempo -->
+<section class="time" id="tiempo" aria-labelledby="t-time">
+  <h2 id="t-time">Arte medieval<br>a través del tiempo</h2>
+  <ol class="tl" id="timeline-list">
+    <!-- Se genera dinámicamente desde JS -->
+    <noscript>
+      <li class="rv" id="bizantino"><span class="dot"></span><h3>Bizantino</h3><p class="micro">siglos IV–XV</p><p>Basílicas de planta centralizada, mosaicos dorados y la innovación de la cúpula sobre pechinas.</p><figure data-ph="BIZANTINO.png"><img src="assets/images/BIZANTINO.png" alt="Interior de Santa Sofía con mosaicos dorados" loading="lazy"></figure></li>
+      <li class="rv" id="romanico"><span class="dot"></span><h3>Románico</h3><p class="micro">siglos XI–XII</p><p>Muros gruesos, arcos de medio punto y bóvedas de cañón. Arquitectura de peregrinación y monasterios.</p><figure data-ph="ROMANICO.png"><img src="assets/images/ROMANICO.png" alt="Iglesia románica con arcos de medio punto" loading="lazy"></figure></li>
+      <li class="rv" id="gotico"><span class="dot"></span><h3>Gótico</h3><p class="micro">siglos XII–XV</p><p>Bóvedas de crucería, arbotantes y vidrieras. La búsqueda de la luz vertical y la altura en catedrales.</p><figure data-ph="GOTICO.png"><img src="assets/images/GOTICO.png" alt="Catedral gótica con arbotantes" loading="lazy"></figure></li>
+    </noscript>
+  </ol>
+</section>
+
+<!-- Sección Galería arquitectónica -->
+<section class="gal" aria-label="Galería arquitectónica">
+  <figure class="g1" data-ph="BIZANTINO.png"><img src="assets/images/BIZANTINO.png" alt="Santa Sofía, Constantinopla" loading="lazy"><figcaption class="micro">Santa Sofía, Constantinopla</figcaption></figure>
+  <figure class="g2" data-ph="ROMANICO.png"><img src="assets/images/ROMANICO.png" alt="Iglesia románica" loading="lazy"><figcaption class="micro">Iglesia románica</figcaption></figure>
+  <figure class="g3" data-ph="GOTICO.png"><img src="assets/images/GOTICO.png" alt="Catedral gótica" loading="lazy"><figcaption class="micro">Catedral gótica</figcaption></figure>
+  <figure class="g4" data-ph="MOSAICO.png"><img src="assets/images/MOSAICO.png" alt="Mosaicos bizantinos" loading="lazy"><figcaption class="micro">Mosaicos bizantinos</figcaption></figure>
+  <figure class="g5" data-ph="CATEDRAL.png"><img src="assets/images/CATEDRAL.png" alt="Catedral medieval" loading="lazy"><figcaption class="micro">Catedral medieval</figcaption></figure>
+  <figure class="g6" data-ph="ARCO.png"><img src="assets/images/ARCO.png" alt="Arcos góticos" loading="lazy"><figcaption class="micro">Arcos góticos</figcaption></figure>
+</section>
+
+<!-- Sección Elementos de cada estilo -->
+<section class="orders" aria-labelledby="t-ord">
+  <div class="o-text rv"><h2 id="t-ord">Elementos de<br>cada estilo</h2>
+    <p>Cada estilo medieval aportó soluciones arquitectónicas únicas: el arco de medio punto románico, la bóveda de crucería gótica y la cúpula sobre pechinas bizantina.</p></div>
+  <ul class="cols">
+    <li><figure data-ph="Colocar assets/images/ARCO-MEDIO-PUNTO.png"><img src="assets/images/ARCO-MEDIO-PUNTO.png" alt="Arco de medio punto románico" loading="lazy"></figure><h3>Arco de medio punto</h3><p class="micro">Románico · Robustez</p></li>
+    <li><figure data-ph="Colocar assets/images/BOVEDA-CRUCERIA.png"><img src="assets/images/BOVEDA-CRUCERIA.png" alt="Bóveda de crucería gótica" loading="lazy"></figure><h3>Bóveda de crucería</h3><p class="micro">Gótico · Verticalidad</p></li>
+    <li><figure data-ph="Colocar assets/images/CUPULA-PECHINA.png"><img src="assets/images/CUPULA-PECHINA.png" alt="Cúpula sobre pechinas bizantina" loading="lazy"></figure><h3>Cúpula sobre pechinas</h3><p class="micro">Bizantino · Espacialidad</p></li>
+  </ul>
+</section>
+
+<!-- Sección Ficha de edición / Créditos -->
+<section class="ficha" id="edicion" aria-labelledby="t-ed">
+  <div><p class="micro">Colección digital</p><h2 id="t-ed">Historia de la<br>Arquitectura I</h2><p class="micro">Edición 2026 · Formato PDF digital</p></div>
+  <dl>
+    <div><dt>Colección</dt><dd>Historia de la Arquitectura I</dd></div>
+    <div><dt>Formato</dt><dd>PDF digital</dd></div>
+    <div><dt>Año</dt><dd>2026</dd></div>
+    <div><dt>Docente encargada</dt><dd>Arq. Carolina Pinedo</dd></div>
+    <div><dt>Materia</dt><dd>Historia del Arte y Arquitectura I</dd></div>
+    <div><dt>Institución</dt><dd class="inst">
+      <img class="uni-logo uni-logo--light" src="assets/images/Logo.png" alt="Logo de la Universidad de La Guajira" loading="lazy">
+      <img class="uni-logo uni-logo--dark" src="assets/images/Logo_B.png" alt="" aria-hidden="true" loading="lazy">
+      <span>Universidad de La Guajira</span>
+    </dd></div>
+    <div><dt>Desarrollo web</dt><dd>Andrés Elias Rodríguez Botero</dd></div>
+  </dl>
+</section>
+
+<!-- Sección CTA / Llamada a la acción -->
+<section class="cta">
+  <h2>La arquitectura<br>también se lee.</h2>
+  <p>Explora las cuatro revistas digitales de Historia de la Arquitectura I.</p>
+  <div class="actions">
+    <a class="btn red" href="#revistas">Ver revistas <span>→</span></a>
+  </div>
+</section>
+</main>
+
+<!-- Pie de página / Footer -->
+<footer>
+  <p class="f-brand">Historia de la<br>Arquitectura I</p>
+  <nav aria-label="Pie"><a href="#inicio">Inicio</a><a href="#revistas">Revistas</a><a href="#estilos">Estilos</a><a href="#edicion">Créditos</a></nav>
+  <div class="f-uni">
+    <img class="uni-logo uni-logo--light" src="assets/images/Logo.png" alt="Logo de la Universidad de La Guajira" loading="lazy">
+    <img class="uni-logo uni-logo--dark" src="assets/images/Logo_B.png" alt="" aria-hidden="true" loading="lazy">
+    <div class="f-info">
+      <p class="micro">Desarrollo web: Andrés Elias Rodríguez Botero</p>
+      <p class="micro">Colección digital · 2026<br>© 2026 — Historia de la Arquitectura I</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Visor de Revista PDF (Modal / Dialog) -->
+<dialog id="viewer" aria-label="Visor de la revista">
+  <div class="v-bar">
+    <button data-v="prev" aria-label="Página anterior">←</button><span id="pgInfo" aria-live="polite">–</span><button data-v="next" aria-label="Página siguiente">→</button>
+    <i></i><button data-v="out" aria-label="Alejar">−</button><button data-v="in" aria-label="Acercar">+</button>
+    <button data-v="full" aria-label="Pantalla completa">⛶</button><button data-v="close" aria-label="Cerrar visor">✕</button>
+  </div>
+  <div class="v-stage"><canvas id="pdfCanvas"></canvas><p id="pdfMsg" hidden></p></div>
+</dialog>
+<script src="js/main.js" defer></script>
+</body>
+</html>
